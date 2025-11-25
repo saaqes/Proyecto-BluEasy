@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+header{
+    background-color: #2b343be3;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+header logo{
+    margin: 20px;
+    color: white;
+}
+header logo azul{
+    color: #4bcaff;
+}
+header main{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+}
+header main .blue{
+    color: #4bcaff;
+    border: 2px solid;
+    padding: 5px;
+}
+aside{
+    background-image: url(../assets/images/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    text-align: center;
+    align-items: center;
+    padding: 200px 0 200px 0;
+    font-size: 15px;
+    color: white;
+}
+section h1 superior, inferior{
+    background-color: #2b343ba9;
+    font-weight: lighter;
+    line-height:70px;
+    padding: 10px 10px 10px 10px;
+}
+.gridpadre{
+    display: block;
+    width: 100%;
+}
+.gridblue{
+    background-color: #4bcaff;
+    color: white;
+	display: grid;
+	grid-template-rows: 200px 0px;
+	grid-template-columns: 300px 300px 300px 300px;
+    justify-content: center;
+	column-gap:20px;
+    align-items: center;
+    padding: 50px;
+    
+    
+}
+.gridblue .hijo{
+	text-align: start;
+	font-size: 25px;
+	font-weight: bold;
+    font-size: 10px;
+}
+.portfolio{
+    display: grid;
+}
+.portfolio header{
+    background-color: white;
+ 	display: grid;
+	grid-template-columns: 650px 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+.portfolio .infoo {
+    display: flex;
+    gap: 500px;
+    align-items: center;
+}
+.portfolio .infoo h1{
+    color: #a7aeb2;
+    font-weight: 500;
+    border-bottom: 5px solid #a7aeb2;
+    width: 50px;
+}
+.portfolio header right{
+    display: flex;
+    list-style: none;
+    gap: 55px; 
+    align-items: center;
+}
+header right .blue{
+    color: #4bcaff;
+    border: 2px solid;
+    padding: 5px;
+}
+.portfolio gridimg{
+    color: white;
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+    justify-content: center;
+	gap:30px;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.section2{
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+    display: grid;
+    gap: 50px;
+    background-color: #515f67;
+    padding: 50px 0 50px 0;
+}
+.section2 left{
+    color: white;
+    align-self: center;
+}
+.section2 left h1{
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+.section2 left h2{
+    color: #515f67;
+    border-top: 5px solid #a7aeb2;
+    width: 50px;
+}
+.section2 left button{
+    margin-top: 10px;
+    font-weight: bold;
+    border: 4px solid #3c474d;
+    color: #3c474d;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 20px 10px 20px;
+}
+.section22 right{
+    grid-column: 1/3;
+}
+
+.section2 right img{
+    width: 100%;
+    height: 100%;
+}
+
+tweet{
+    display: grid;
+    grid-template-columns: 1250px;
+    justify-content: center;
+    background-color: #4bcaff;
+    padding: 50px 0 50px 0;
+    color: rgba(255, 255, 255, 0.651);
+}
+.infotwet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.infotwet h1{
+    border-bottom: 2px solid white;
+    width: 50px;
+    font-weight: lighter;
+    color: white;
+}
+tweet p{
+    font-size: 25px;
+}
+tweet textlink{
+    color: white;
+}
+.section3{
+    background-image: url(../assets/images/bg_whoIs.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+.section3{
+    display: grid;
+    grid-template-rows: 100px 200px;
+    justify-content: center;
+    background-size: cover;
+    color: #edeff0;
+    padding: 50px 0 50px 0;
+}
+.section3 .right{
+    display: grid;
+    grid-row: 2;
+}
+.section3 .title{
+    display: flex;
+    align-items: center;
+}
+.section3 .title h1{
+    font-weight: lighter;
+    font-weight: 300;
+}
+.section3 .title border{
+    border-bottom: 5px solid ;
+}
+.section3 contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section3 .right{
+    width: 50%;
+}
+.section3 img{
+    padding-top: 40px;
+}
+.section4{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1200px;
+    padding: 50px 0 50px 0;
+    gap: 20px;
+    color: rgb(79, 79, 79);
+}
+.section4 titulo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section4 titulo h1{
+    border-bottom: 5px solid black;
+    font-weight: lighter;
+    font-weight: 400;
+    width: 50px;
+}
+.section4 titulo img{
+    width: 40px;
+    height: 30px;
+}
+.section4 texto .firma{
+    color: #24bdff;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.section4 texto{
+    font-size: 25px;
+}
+contacto{
+    display: grid;
+    color: white;
+    justify-content: center;
+    grid-template-columns: 1200px;
+    padding: 50px 0 50px 0;
+    background-image: url(../assets/images/bg_contact.png);
+}
+contact part1{
+    display: flex;
+    justify-content: space-between;
+}
+part1 inputs .input2{
+    margin-top: 20px;    
+}
+contact part1 input{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    background-color: #23282b00;
+    border: 2px solid white;
+}
+contact part2{
+    display: flex;
+    flex-direction: column;
+}
+contact part2 input{
+    font-size: 50px;
+    height: 200px;
+    background-color: #23282b00;
+    border: 2px solid white;
+}
+contact part3 button{
+    margin-top: 20px;
+    padding: 20px 100px 20px 100px;
+    border: none;
+    color: white;
+    background-color: #24bdff;
+}
+footer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1200px;
+    padding: 50px 0 50px 0;
+    background-color: #2f3a41;
+    color: #49565e;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer left{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.footer left li{
+    border-right:1px solid #49565e;
+    color: #49565e;
+    padding-right: 20px;
+}
+@media (min-width:352px) and (max-width:480px) {
+    aside header{
+        flex-direction: column;
+    }
+    aside header main{
+        justify-content: center;
+        margin: 0;
+        flex-direction: column;
+    }
+    .portfolio header{
+        grid-template-columns: 150px;
+    }
+    .portfolio right{
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .portfolio .infoo{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+    }
+    .gridblue{
+        grid-template-columns: 300px;
+        gap: 100px;
+        padding-bottom: 100px;
+    }
+    .portfolio gridimg{
+        grid-template-columns: 100px;
+        width: 40%;
+        gap: 50px;
+    }
+    .portfolio .infoo h1{
+        width: 15%;
+    }
+    .section2{
+    grid-template-columns: 300px;
+    width: 100%;
+    }
+    tweet{
+        grid-template-columns: 300px;
+    }
+    .section3{
+        grid-template-columns: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section3 contenedor{
+        width: 50%;
+        flex-direction: column;
+        margin-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 140px;
+    }
+    .section3 .title{
+        margin-left: 50px;
+    }
+    .section3 imgs{
+        width: 200px;
+    }
+    .section3 .right{
+        height: 308px;
+        width: 240px;
+        margin-left: 50px;
+    }
+    .section4{
+        grid-template-columns: 300px;
+    }
+    contacto{
+        grid-template-columns: 300px;
+    }
+    contacto part1{
+        flex-direction: column;
+        padding: 20px 0 20px 0;
+    }
+    contact part1 input{
+        font-size: 15px;
+    }
+    contact part3 button{
+    margin-top: 20px;
+    padding: 10px 100px 10px 100px;
+    }
+    contact part2 input{
+    font-size: 50px;
+    height: 150px;
+    }
+    footer{
+        grid-template-columns: 50px;
+        display: flex;
+        gap: 20px;
+    }
+    footer .footer left{
+        flex-direction: column;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    aside header{
+        flex-direction: column;
+    }
+    aside header main{
+        justify-content: center;
+        margin: 0;
+    }
+    .portfolio header{
+        grid-template-columns: 150px;
+    }
+    .portfolio right{
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .portfolio .infoo{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+    }
+    .gridblue{
+        grid-template-columns: 300px;
+        gap: 100px;
+        padding-bottom: 100px;
+    }
+    .portfolio gridimg{
+        grid-template-columns: 100px;
+        width: 40%;
+        gap: 50px;
+    }
+    .portfolio .infoo h1{
+        width: 15%;
+    }
+    .section2{
+    grid-template-columns: 300px;
+    width: 100%;
+    }
+    tweet{
+        grid-template-columns: 300px;
+    }
+    .section3{
+        grid-template-columns: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section3 contenedor{
+        width: 50%;
+        flex-direction: column;
+        margin-left: 140px;
+        padding-top: 20px;
+        padding-bottom: 140px;
+    }
+    .section3 .title{
+        margin-left: 140px;
+    }
+    .section3 imgs{
+        width: 200px;
+    }
+    .section3 .right{
+        height: 308px;
+        width: 240px;
+    }
+    .section4{
+        grid-template-columns: 300px;
+    }
+    contacto{
+        grid-template-columns: 300px;
+    }
+    contacto part1{
+        flex-direction: column;
+        padding: 20px 0 20px 0;
+    }
+    contact part1 input{
+        font-size: 20px;
+    }
+    contact part3 button{
+    margin-top: 20px;
+    padding: 10px 100px 10px 100px;
+    }
+    contact part2 input{
+    font-size: 50px;
+    height: 150px;
+    }
+    footer{
+        grid-template-columns: 300px;
+        display: flex;
+    }
+    footer .footer{
+        flex-direction: column;
+    }
+}
+
+@media (min-width:769px) and (max-width:920px) {
+    .portfolio header{
+        grid-template-columns: 650px;
+    }
+    .portfolio .infoo h1{
+        width: 100%;
+    }
+    .portfolio .infoo{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+    }
+    .gridblue{
+        grid-template-columns: 300px 300px;
+        gap: 50px;
+        padding: 100px;
+    }
+    .portfolio gridimg{
+        grid-template-columns: 300px 300px;
+        width: 90%;
+        gap: 50px;
+    }
+    .section2{
+    grid-template-columns: 600px;
+    width: 100%;
+    }
+    tweet{
+        grid-template-columns: 500px;
+    }
+    .section3{
+        grid-template-columns: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section3 contenedor{
+        width: 70%;
+        margin-left: 140px;
+        padding-top: 20px;
+        padding-bottom: 140px;
+    }
+    .section3 .title{
+        margin-left: 140px;
+    }
+    .section3 imgs{
+        width: 100%;
+    }
+    .section3 .right{
+        height: 308px;
+    }
+    .section4{
+        grid-template-columns: 600px;
+    }
+    contacto{
+        grid-template-columns: 600px;
+    }
+    contacto part1{
+        flex-direction: column;
+        padding: 20px 0 20px 0;
+    }
+    contact part3 button{
+    margin-top: 20px;
+    padding: 10px 100px 10px 100px;
+    }
+    contact part2 input{
+    font-size: 50px;
+    height: 150px;
+    }
+    footer{
+        grid-template-columns: 600px;
+    }
+}
+
+@media (min-width:921px) and (max-width:1279px) {
+    .portfolio header{
+        grid-template-columns: 650px;
+    }
+    .portfolio .infoo h1{
+        width: 100%;
+    }
+    .portfolio .infoo{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+    }
+    .gridblue{
+        grid-template-columns: 300px 300px;
+        gap: 50px;
+        padding: 100px;
+    }
+    .portfolio gridimg{
+        grid-template-columns: 300px 300px;
+        width: 90%;
+        gap: 50px;
+    }
+    .section2{
+    grid-template-columns: 600px;
+    }
+    tweet{
+        grid-template-columns: 500px;
+    }
+    .section3{
+        grid-template-columns: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section3 contenedor{
+        width: 70%;
+        margin-left: 140px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .section3 .title{
+        margin-left: 140px;
+    }
+    .section3 imgs{
+        width: 70%;
+    }
+    .section3 .right{
+        height: 308px;
+    }
+    .section4{
+        grid-template-columns: 600px;
+    }
+    contacto{
+        grid-template-columns: 600px;
+    }
+    contacto part1{
+        flex-direction: column;
+        padding: 20px 0 20px 0;
+    }
+    contact part3 button{
+    margin-top: 20px;
+    padding: 10px 100px 10px 100px;
+    }
+    contact part2 input{
+    font-size: 50px;
+    height: 150px;
+    }
+    footer{
+        grid-template-columns: 600px;
+    }
+   
+}
+
+@media (min-width:1280px) {
+    .portfolio gridimg{
+        grid-template-columns: 200px 200px 200px 200px;
+        width: 82%;
+        gap: 100px;
+        display: grid;
+        justify-content: center;
+    }
+}
